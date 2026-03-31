@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>PetNEW - Cadastro e Agendamento</title>
+    <title>PetBVL - Cadastro e Agendamento</title>
 </head>
 <body>
 
@@ -83,7 +83,7 @@
 
     <!-- Acessibilidade -->
     <h2>Imagem do Petshop</h2>
-    <img src="petNEW.jpg" alt="Imagem de um petshop com cachorro sendo atendido">
+    <img src="petBVL.jpg" alt="Imagem de um petshop com cachorro sendo atendido">
 
 </body>
 </html>
