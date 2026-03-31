@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Petshop - Cadastro e Agendamento</title>
+</head>
+<body>
+
+    <h1>Cadastro do Cliente e do Pet</h1>
+
+    <form>
+
+        <!-- Dados do Cliente -->
+        <fieldset>
+            <legend>Dados do Cliente</legend>
+
+            Nome: <input type="text" name="nome" placeholder="Digite seu nome" required><br><br>
+
+            Endereço: <input type="text" name="endereco" placeholder="Rua, número..." required><br><br>
+
+            CPF: <input type="text" name="cpf" placeholder="000.000.000-00" required><br><br>
+
+            Sexo:
+            <input type="radio" name="sexo" value="masculino" required> Masculino
+            <input type="radio" name="sexo" value="feminino"> Feminino
+            <br><br>
+
+            Telefone: <input type="tel" name="telefone" placeholder="(00) 00000-0000" required><br><br>
+
+            E-mail: <input type="email" name="email" placeholder="email@exemplo.com" required><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Dados do Pet -->
+        <fieldset>
+            <legend>Dados do Pet</legend>
+
+            Nome do Pet: <input type="text" name="pet_nome" required><br><br>
+
+            Raça: <input type="text" name="raca" required><br><br>
+
+            Idade: <input type="number" name="idade" min="0" required><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Serviços -->
+        <fieldset>
+            <legend>Serviços</legend>
+
+            <input type="checkbox" name="servico" value="banho"> Banho<br>
+            <input type="checkbox" name="servico" value="tosa"> Tosa<br>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Agendamento -->
+        <fieldset>
+            <legend>Agendamento</legend>
+
+            Método:
+            <input type="radio" name="metodo" value="telebusca" required> Tele-busca
+            <input type="radio" name="metodo" value="entrega"> Entrega no local
+            <br><br>
+
+            Data: <input type="date" name="data" required><br><br>
+
+            Horário: <input type="time" name="hora" required><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Agendar">
+
+    </form>
+
+    <br>
+
+    <!-- Acessibilidade -->
+    <h2>Imagem do Petshop</h2>
+    <img src="petshop.jpg" alt="Imagem de um petshop com cachorro sendo atendido">
+
+</body>
+</html>
